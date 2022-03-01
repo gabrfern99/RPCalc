@@ -142,8 +142,8 @@ main (int argc, char *argv[])
 	}
 	host = argv[1];
     mathop = argv[2];
-    num1 = atoi(argv[3]);
-    num2 = atoi(argv[4]);
+    num1 = atof(argv[3]);
+    num2 = atof(argv[4]);
 
     if(strcmp(mathop, "ADD") == 0)
       {
