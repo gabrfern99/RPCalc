@@ -9,8 +9,11 @@ make -f Makefile.calc
 ## Running
 
 ./calc_server
+
 ./calc_client HOST MATHOP N1 N2
+
 **Example:**
+
 -- ./calc_client 192.168.23.11 ADD 7.2 5.3
 
 ### Caveats
